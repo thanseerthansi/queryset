@@ -13,9 +13,15 @@ class banking(models.Model):
     user = models.CharField(max_length=20)
     balance = models.FloatField(default=0.0)
 
+class PostManager(models.Manager):
+
+    def smaller_than(self,agee):
+
+        return self.filter(age__lt=agee)
 
 class Students(models.Model):
     name = models.CharField(max_length=20)
     age = models.IntegerField()
 
-    students = models.Manager()
+    objects = models.Manager()
+    students = PostManager()

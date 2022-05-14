@@ -80,6 +80,14 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -417,6 +425,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "selectedrelated.migrations.0006_alter_students_managers",
+        "description": "selectedrelated.migrations.0006_alter_students_managers",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('selectedrelated', '0005_alter_books_author'),\n    ]\n    operations = [\n        migrations.AlterModelManagers(\n            name='students',\n            managers=[\n            ],\n        ),",
+        "detail": "selectedrelated.migrations.0006_alter_students_managers",
+        "documentation": {}
+    },
+    {
         "label": "SelectedrelatedConfig",
         "kind": 6,
         "importPath": "selectedrelated.apps",
@@ -439,7 +456,7 @@
         "kind": 6,
         "importPath": "selectedrelated.models",
         "description": "selectedrelated.models",
-        "peekOfCode": "class Books(models.Model):\n    book = models.CharField(max_length=30)\n    author = models.ForeignKey(Author,related_name='auth_name',on_delete=models.CASCADE)\nclass store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass Students(models.Model):",
+        "peekOfCode": "class Books(models.Model):\n    book = models.CharField(max_length=30)\n    author = models.ForeignKey(Author,related_name='auth_name',on_delete=models.CASCADE)\nclass store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass PostManager(models.Manager):",
         "detail": "selectedrelated.models",
         "documentation": {}
     },
@@ -448,7 +465,7 @@
         "kind": 6,
         "importPath": "selectedrelated.models",
         "description": "selectedrelated.models",
-        "peekOfCode": "class store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    students = models.Manager()",
+        "peekOfCode": "class store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass PostManager(models.Manager):\n    def smaller_than(self,agee):\n        return self.filter(age__lt=agee)\nclass Students(models.Model):",
         "detail": "selectedrelated.models",
         "documentation": {}
     },
@@ -457,7 +474,16 @@
         "kind": 6,
         "importPath": "selectedrelated.models",
         "description": "selectedrelated.models",
-        "peekOfCode": "class banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    students = models.Manager()",
+        "peekOfCode": "class banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass PostManager(models.Manager):\n    def smaller_than(self,agee):\n        return self.filter(age__lt=agee)\nclass Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    objects = models.Manager()",
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "PostManager",
+        "kind": 6,
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "peekOfCode": "class PostManager(models.Manager):\n    def smaller_than(self,agee):\n        return self.filter(age__lt=agee)\nclass Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    objects = models.Manager()\n    students = PostManager()",
         "detail": "selectedrelated.models",
         "documentation": {}
     },
@@ -466,7 +492,7 @@
         "kind": 6,
         "importPath": "selectedrelated.models",
         "description": "selectedrelated.models",
-        "peekOfCode": "class Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    students = models.Manager()",
+        "peekOfCode": "class Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    objects = models.Manager()\n    students = PostManager()",
         "detail": "selectedrelated.models",
         "documentation": {}
     },
@@ -556,7 +582,7 @@
         "kind": 2,
         "importPath": "selectedrelated.views",
         "description": "selectedrelated.views",
-        "peekOfCode": "def q(request):\n    total_bank_balance = banking.objects.filter( Q(id=1)| Q(user='a')).update(balance=F('balance')+ 1)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"f()\") \n#manager..........................\ndef manager(request):\n    stu = Students.students.all().values_list('name','age').get(id=1)\n    print(\"student\",stu)\n    return HttpResponse(f\"manager{stu}\")\n# reverse relationship",
+        "peekOfCode": "def q(request):\n    total_bank_balance = banking.objects.filter( Q(id=1)| Q(user='a')).update(balance=F('balance')+ 1)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"f()\") \n#manager..........................\ndef manager(request):\n    stu = Students.students.smaller_than(20).values()\n    alldata = Students.objects.all().values()\n    print(\"student\",stu)\n    print(\"alldata\",alldata)",
         "detail": "selectedrelated.views",
         "documentation": {}
     },
@@ -565,7 +591,7 @@
         "kind": 2,
         "importPath": "selectedrelated.views",
         "description": "selectedrelated.views",
-        "peekOfCode": "def manager(request):\n    stu = Students.students.all().values_list('name','age').get(id=1)\n    print(\"student\",stu)\n    return HttpResponse(f\"manager{stu}\")\n# reverse relationship\ndef revererelation(request):\n    auth = Author.objects.filter(id=1)\n    for auth  in auth:\n        book = auth.auth_name.all().values('book','author')\n        print(\"authloop\",auth)",
+        "peekOfCode": "def manager(request):\n    stu = Students.students.smaller_than(20).values()\n    alldata = Students.objects.all().values()\n    print(\"student\",stu)\n    print(\"alldata\",alldata)\n    return HttpResponse(f\"manager{stu}\")\n# reverse relationship\ndef revererelation(request):\n    auth = Author.objects.filter(id=1)\n    for auth  in auth:",
         "detail": "selectedrelated.views",
         "documentation": {}
     },

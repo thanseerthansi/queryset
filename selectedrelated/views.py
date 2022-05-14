@@ -93,17 +93,29 @@ def f(request):
     total_bank_balance = banking.objects.filter(id=1).update(balance=F('balance')+ 1)
     print("balance",total_bank_balance)
     return HttpResponse("f()")
+
+
+
 #q()...........................
 def q(request):
     total_bank_balance = banking.objects.filter( Q(id=1)| Q(user='a')).update(balance=F('balance')+ 1)
     print("balance",total_bank_balance)
     return HttpResponse("f()") 
+
+
+
 #manager..........................
 def manager(request):
-    stu = Students.students.all().values_list('name','age').get(id=1)
+    stu = Students.students.smaller_than(20).values()
+    alldata = Students.objects.all().values()
     print("student",stu)
+    print("alldata",alldata)
     return HttpResponse(f"manager{stu}")
+
+
+
 # reverse relationship
+
 def revererelation(request):
     auth = Author.objects.filter(id=1)
     for auth  in auth:
