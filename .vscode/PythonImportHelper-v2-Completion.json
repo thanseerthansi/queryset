@@ -1,0 +1,797 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.manager",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.manager",
+        "description": "django.db.models.manager",
+        "detail": "django.db.models.manager",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Books",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Students",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "banking",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "store",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Books",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Students",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "banking",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "store",
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "isExtraImport": true,
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "selectedrelated",
+        "description": "selectedrelated",
+        "isExtraImport": true,
+        "detail": "selectedrelated",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPResponse",
+        "importPath": "http.client",
+        "description": "http.client",
+        "isExtraImport": true,
+        "detail": "http.client",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "selectedrelated.migrations.0001_initial",
+        "description": "selectedrelated.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Author',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=20)),",
+        "detail": "selectedrelated.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "selectedrelated.migrations.0002_store",
+        "description": "selectedrelated.migrations.0002_store",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('selectedrelated', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='store',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('store_name', models.CharField(max_length=20)),",
+        "detail": "selectedrelated.migrations.0002_store",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "selectedrelated.migrations.0003_banking",
+        "description": "selectedrelated.migrations.0003_banking",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('selectedrelated', '0002_store'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='banking',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('user', models.CharField(max_length=20)),",
+        "detail": "selectedrelated.migrations.0003_banking",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "selectedrelated.migrations.0004_students",
+        "description": "selectedrelated.migrations.0004_students",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('selectedrelated', '0003_banking'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Students',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=20)),",
+        "detail": "selectedrelated.migrations.0004_students",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "selectedrelated.migrations.0005_alter_books_author",
+        "description": "selectedrelated.migrations.0005_alter_books_author",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('selectedrelated', '0004_students'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='books',\n            name='author',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='auth_name', to='selectedrelated.author'),\n        ),",
+        "detail": "selectedrelated.migrations.0005_alter_books_author",
+        "documentation": {}
+    },
+    {
+        "label": "SelectedrelatedConfig",
+        "kind": 6,
+        "importPath": "selectedrelated.apps",
+        "description": "selectedrelated.apps",
+        "peekOfCode": "class SelectedrelatedConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'selectedrelated'",
+        "detail": "selectedrelated.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "kind": 6,
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "peekOfCode": "class Author(models.Model):\n    name = models.CharField(max_length=20)  \nclass Books(models.Model):\n    book = models.CharField(max_length=30)\n    author = models.ForeignKey(Author,related_name='auth_name',on_delete=models.CASCADE)\nclass store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)",
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Books",
+        "kind": 6,
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "peekOfCode": "class Books(models.Model):\n    book = models.CharField(max_length=30)\n    author = models.ForeignKey(Author,related_name='auth_name',on_delete=models.CASCADE)\nclass store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass Students(models.Model):",
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "store",
+        "kind": 6,
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "peekOfCode": "class store(models.Model):\n    store_name = models.CharField(max_length=20)\n    books = models.ManyToManyField(Books)\nclass banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    students = models.Manager()",
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "banking",
+        "kind": 6,
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "peekOfCode": "class banking(models.Model):\n    user = models.CharField(max_length=20)\n    balance = models.FloatField(default=0.0)\nclass Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    students = models.Manager()",
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "Students",
+        "kind": 6,
+        "importPath": "selectedrelated.models",
+        "description": "selectedrelated.models",
+        "peekOfCode": "class Students(models.Model):\n    name = models.CharField(max_length=20)\n    age = models.IntegerField()\n    students = models.Manager()",
+        "detail": "selectedrelated.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "selectedrelated.urls",
+        "description": "selectedrelated.urls",
+        "peekOfCode": "urlpatterns = [\n    path('book/',views.booksget),\n    path('store/',views.storeget),\n    path('transaction/',views.Transaction),\n    path('aggregate/',views.aggregate),\n    path('annotate/',views.annotate),\n    path('values/',views.values),\n    path('f/',views.f),\n    path('manager/',views.manager),\n    path('revererelation/',views.revererelation),",
+        "detail": "selectedrelated.urls",
+        "documentation": {}
+    },
+    {
+        "label": "booksget",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def booksget(request):\n    book = Books.objects.all().select_related('author')\n    print(\"query\",book.query) \n    ordiset = Books.objects.all()\n    print(\"\\nallquery\",ordiset.query)\n    for book in book:\n        book1 = book.author.name\n        print(\"boo\",book.author.name)\n    return HttpResponse (\"ok\")\n# prefetch related ..........................................................",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "storeget",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def storeget(request):\n    stores = Books.objects.all().prefetch_related('store_set')\n    print(\"query\",stores.query)\n    print(\"query\",stores.query)\n    for storess in stores:\n        # book1 = stores.books.book\n        print(\"boo\",storess.store_set.all())\n    return HttpResponse (\"okstore\")\n #transactions Automic......................\n# @transaction.atomic",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def Transaction(request):\n    user1 = 2\n    user2 = 1\n    amount = 1\n    try: \n        with transaction.atomic():\n            payfro =banking.objects.get(id=user1)\n            payfro.balance -= amount\n            payfro.save()\n            payto =banking.objects.get(id=user2)",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "selectforupdate",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def selectforupdate(request):\n    user1 = 1\n    user2 = 2 \n    amount = 50\n    with transaction.atomic():\n        payfro = banking.objects.select_for_update().get(id=user1)\n        payfro.balance -= amount\n        payfro.save()\n        payto = banking.objects.select_for_update().get(id=user2)\n        payto.balance += amount ",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "aggregate",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def aggregate(request):\n    total_bank_balance = banking.objects.aggregate(Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#annotate .......................................\ndef annotate(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#values()..................................",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "annotate",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def annotate(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#values()..................................\ndef values(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance')).values()\n    print(\"balance\",total_bank_balance.query)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def values(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance')).values()\n    print(\"balance\",total_bank_balance.query)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#f() ..................................\ndef f(request):\n    total_bank_balance = banking.objects.filter(id=1).update(balance=F('balance')+ 1)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"f()\")",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def f(request):\n    total_bank_balance = banking.objects.filter(id=1).update(balance=F('balance')+ 1)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"f()\")\n#q()...........................\ndef q(request):\n    total_bank_balance = banking.objects.filter( Q(id=1)| Q(user='a')).update(balance=F('balance')+ 1)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"f()\") \n#manager..........................",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def q(request):\n    total_bank_balance = banking.objects.filter( Q(id=1)| Q(user='a')).update(balance=F('balance')+ 1)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"f()\") \n#manager..........................\ndef manager(request):\n    stu = Students.students.all().values_list('name','age').get(id=1)\n    print(\"student\",stu)\n    return HttpResponse(f\"manager{stu}\")\n# reverse relationship",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def manager(request):\n    stu = Students.students.all().values_list('name','age').get(id=1)\n    print(\"student\",stu)\n    return HttpResponse(f\"manager{stu}\")\n# reverse relationship\ndef revererelation(request):\n    auth = Author.objects.filter(id=1)\n    for auth  in auth:\n        book = auth.auth_name.all().values('book','author')\n        print(\"authloop\",auth)",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "revererelation",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def revererelation(request):\n    auth = Author.objects.filter(id=1)\n    for auth  in auth:\n        book = auth.auth_name.all().values('book','author')\n        print(\"authloop\",auth)\n        print(\"bookloop\",book)\n    return HttpResponse(\"revserse relationship\")\n#bulk create .................................................\ndef bulkcreate(request):\n    auth1 = Author.objects.get(id=1)",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "bulkcreate",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def bulkcreate(request):\n    auth1 = Author.objects.get(id=1)\n    auth2 = Author.objects.get(id=2)\n    book =  Books.objects.all().bulk_create([Books(book='bookd',author=auth1),Books(book='booke',author=auth2)])\n    print(\"book\",book)\n    return HttpResponse(\"bulkcreate\")\n#bulk update .................................................\ndef bulkupdate(request):\n    update_queries = []\n    a = Books.objects.get(id=3)",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "bulkupdate",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def bulkupdate(request):\n    update_queries = []\n    a = Books.objects.get(id=3)\n    b = Books.objects.get(id=4)\n    c = Books.objects.get(id=5)\n    #set update value\n    a.book=\"Hello python \"\n    b.book=\"Hello django \"\n    c.book=\"Hello bulk \"\n    update_queries.extend((a, b, c))",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "defer",
+        "kind": 2,
+        "importPath": "selectedrelated.views",
+        "description": "selectedrelated.views",
+        "peekOfCode": "def defer(request):\n    stores = banking.objects.defer('balance').values()\n    print(\"store\",stores.values())\n    print(\"query\",stores.query)\n    return HttpResponse(f\"defer{stores}\")",
+        "detail": "selectedrelated.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "studypro.asgi",
+        "description": "studypro.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "studypro.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'mnl-pog)ls6v2vdr+nu4k34@qpo$3z*59uzu@1u1enfpn%g&r6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "SECRET_KEY = 'mnl-pog)ls6v2vdr+nu4k34@qpo$3z*59uzu@1u1enfpn%g&r6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'selectedrelated'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'selectedrelated'\n]\nMIDDLEWARE = [",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'studypro.urls'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "ROOT_URLCONF = 'studypro.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'studypro.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "studypro.settings",
+        "description": "studypro.settings",
+        "peekOfCode": "STATIC_URL = '/static/'",
+        "detail": "studypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "studypro.urls",
+        "description": "studypro.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include('selectedrelated.urls'))\n]",
+        "detail": "studypro.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "studypro.wsgi",
+        "description": "studypro.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "studypro.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'studypro.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
