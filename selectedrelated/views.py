@@ -1,9 +1,11 @@
 from http.client import HTTPResponse
+from multiprocessing.sharedctypes import Value
+
 # 
 from django.http import HttpResponse
 from django.shortcuts import render 
 from django.db import transaction
-from django.db.models import Sum,Count,F,Q
+from django.db.models import Sum,Count,F,Q,When,Case,CharField
 from selectedrelated.models import Author, Books, Students, banking, store
 
 # Create your views here.
@@ -77,8 +79,9 @@ def aggregate(request):
 
 #annotate .......................................
 def annotate(request):
-    total_bank_balance = banking.objects.annotate(new=Sum('balance'))
+    total_bank_balance = banking.objects.annotate(new=Sum(Case(When(balance__lt = 500,then=1),When(balance__gt = 500,then=2 )))).values()
     print("balance",total_bank_balance)
+    print("balancenew",total_bank_balance.values('new'))
     return HttpResponse("ok")
 
 #values()..................................

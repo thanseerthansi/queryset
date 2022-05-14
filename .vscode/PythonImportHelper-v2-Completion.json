@@ -290,6 +290,14 @@
         "documentation": {}
     },
     {
+        "label": "Value",
+        "importPath": "multiprocessing.sharedctypes",
+        "description": "multiprocessing.sharedctypes",
+        "isExtraImport": true,
+        "detail": "multiprocessing.sharedctypes",
+        "documentation": {}
+    },
+    {
         "label": "HttpResponse",
         "importPath": "django.http",
         "description": "django.http",
@@ -331,6 +339,30 @@
     },
     {
         "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "When",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Case",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "CharField",
         "importPath": "django.db.models",
         "description": "django.db.models",
         "isExtraImport": true,
@@ -546,7 +578,7 @@
         "kind": 2,
         "importPath": "selectedrelated.views",
         "description": "selectedrelated.views",
-        "peekOfCode": "def aggregate(request):\n    total_bank_balance = banking.objects.aggregate(Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#annotate .......................................\ndef annotate(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#values()..................................",
+        "peekOfCode": "def aggregate(request):\n    total_bank_balance = banking.objects.aggregate(Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#annotate .......................................\ndef annotate(request):\n    total_bank_balance = banking.objects.annotate(new=Sum(Case(When(balance__lt = 500,then=1),When(balance__gt = 500,then=2 )))).values()\n    print(\"balance\",total_bank_balance)\n    print(\"balancenew\",total_bank_balance.values('new'))\n    return HttpResponse(\"ok\")",
         "detail": "selectedrelated.views",
         "documentation": {}
     },
@@ -555,7 +587,7 @@
         "kind": 2,
         "importPath": "selectedrelated.views",
         "description": "selectedrelated.views",
-        "peekOfCode": "def annotate(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance'))\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")\n#values()..................................\ndef values(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance')).values()\n    print(\"balance\",total_bank_balance.query)\n    print(\"balance\",total_bank_balance)\n    return HttpResponse(\"ok\")",
+        "peekOfCode": "def annotate(request):\n    total_bank_balance = banking.objects.annotate(new=Sum(Case(When(balance__lt = 500,then=1),When(balance__gt = 500,then=2 )))).values()\n    print(\"balance\",total_bank_balance)\n    print(\"balancenew\",total_bank_balance.values('new'))\n    return HttpResponse(\"ok\")\n#values()..................................\ndef values(request):\n    total_bank_balance = banking.objects.annotate(new=Sum('balance')).values()\n    print(\"balance\",total_bank_balance.query)\n    print(\"balance\",total_bank_balance)",
         "detail": "selectedrelated.views",
         "documentation": {}
     },
